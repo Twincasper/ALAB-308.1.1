@@ -63,7 +63,12 @@ const fuelStatusFiftyFive = fuelBudget < fuelCostFiftyFive ? "unable" : "able";
 const fuelStatusSixty = fuelBudget < fuelCostSixty ? "unable" : "able";
 const fuelStatusSeventyFive = fuelBudget < fuelCostSeventyFive ? "unable" : "able";
 
+
 console.log(`We want to go on a trip of ${tripDistance} miles. Our car goes fifty-five miles per hour, because in this hypothetical scenario our car is stuck at one static speed the entire time. So we'll need ${fuelNeededFiftyFive} gallons of fuel. At that speed it'll take us ${Math.ceil(tripDistance / fiftyFiveMph)} hours to complete the trip. The cost of fuel will be $${fuelCostFiftyFive}, so we are ${fuelStatusFiftyFive} to complete the trip.`);
+
+console.log(`We want to go on a trip of ${tripDistance} miles. Our car goes fifty-five miles per hour, because in this hypothetical scenario our car is stuck at one static speed the entire time. So we'll need ${fuelNeededSixty} gallons of fuel. At that speed it'll take us ${Math.ceil(tripDistance / sixtyMph)} hours to complete the trip. The cost of fuel will be $${fuelCostSixty}, so we are ${fuelStatusSixty} to complete the trip.`);
+
+console.log(`We want to go on a trip of ${tripDistance} miles. Our car goes fifty-five miles per hour, because in this hypothetical scenario our car is stuck at one static speed the entire time. So we'll need ${fuelNeededSeventyFive} gallons of fuel. At that speed it'll take us ${Math.ceil(tripDistance / seventyFiveMph)} hours to complete the trip. The cost of fuel will be $${fuelCostSeventyFive}, so we are ${fuelStatusSeventyFive} to complete the trip.`);
 
 
 
